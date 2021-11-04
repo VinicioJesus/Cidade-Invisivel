@@ -2,6 +2,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-image: url(../../../img/Background\ Boto.png);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: right top;
   background-color: #0008;
@@ -20,7 +21,18 @@ main {
   font-family: "Open-sans", sans-serif;
   color: #ffff;
 }
-main h2 {
+
+.elementos-elenco {
+  display: flex;
+  gap: 20px;
+}
+
+.titulos {
+  display: flex;
+  flex-direction: column;
+}
+
+/*main h2 {
   font-size: 3rem;
   font-weight: 200;
 }
@@ -31,7 +43,7 @@ main h1 {
   text-shadow: 4px 5px 4px #000000;
   backdrop-filter: blur(4px);
   line-height: 180px;
-}
+}*/
 
 main p {
   font-size: 1.878rem;

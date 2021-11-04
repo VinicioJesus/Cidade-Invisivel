@@ -21,10 +21,6 @@ main {
   color: #fff;
 }
 
-main h3 {
-  display: flex;
-  flex-direction: row;
-}
 main h2 {
   font-size: 3rem;
   font-weight: 200;
