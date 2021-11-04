@@ -1,7 +1,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url(../img/background.png);
+  background-image: url(../../img/Background.png);
   background-size: cover;
   background-position: right top;
   background-color: #0008;
@@ -19,6 +19,11 @@ main {
   flex-grow: 1;
   font-family: "Open-sans", sans-serif;
   color: #fff;
+}
+
+main h3 {
+  display: flex;
+  flex-direction: row;
 }
 main h2 {
   font-size: 3rem;
